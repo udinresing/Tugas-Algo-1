@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-     int a, b, c; // deklarasi interger a, b, c
+     int a, b, c; // deklarasi variabel interger a, b, c
 
     cout << "Masukkan tahun: "; // user masukkan tahun
     cin >> a;
@@ -13,6 +13,6 @@ int main() {
     cout << "Masukkan hari: "; // masukkan hari
     cin >> c;
 
-    cout << "Hasil: " << a*365 + b*12 + c; // kalkulasi hasil akhir
+    cout << "Hasil: " << a*365 + b*12 + c; // perhitungan dan output
     return 0;
 }
